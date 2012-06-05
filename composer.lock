@@ -2,13 +2,9 @@
     "hash": "b36653abbff63faa975eca2fa3578343",
     "packages": [
         {
-            "package": "pimple/pimple",
-            "version": "1.0.0"
-        },
-        {
             "package": "szeber/yapep_base",
             "version": "dev-master",
-            "source-reference": "b39626ea98022a9db7da23d534147d593e3cec1f"
+            "source-reference": "f03d1fa853e83f2db8cbe46251f3bf13175ad1d9"
         }
     ],
     "packages-dev": null,
