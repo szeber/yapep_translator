@@ -1,0 +1,13 @@
+{
+    "name": "szeber/yapep_translator",
+    "description": "Translator application, that uses the YapepBase framework's i18n system",
+    "require": {
+        "szeber/yapep_base": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Zsolt Szeberenyi",
+            "email": "szeber@yapep.org"
+        }
+    ]
+}
