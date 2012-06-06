@@ -8,7 +8,7 @@
         {
             "package": "szeber/yapep_base",
             "version": "dev-master",
-            "source-reference": "b39626ea98022a9db7da23d534147d593e3cec1f"
+            "source-reference": "dd91872ab74f9447b3c340057c96ee8dc7fe3097"
         }
     ],
     "packages-dev": null,
