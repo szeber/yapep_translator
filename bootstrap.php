@@ -64,5 +64,16 @@ $autoloader->register();
 /** Require the config */
 require_once __DIR__ . '/config.php';
 
+$application = Application::getInstance();
+
+$application->getDiContainer()->getErrorHandlerRegistry()->addErrorHandler(new LoggingErrorHandler(
+	new SyslogLogger('error')
+));
+
+$application->getDiContainer()->getErrorHandlerRegistry()->addErrorHandler(new DebugDataCreator(
+	new FileStorage('debugData')
+));
+
+
 // Clean up the global scope
 unset($autoloader, $vendorClasspaths);
