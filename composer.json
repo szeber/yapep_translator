@@ -2,7 +2,7 @@
     "name": "szeber/yapep_translator",
     "description": "Translator application, that uses the YapepBase framework's i18n system",
     "require": {
-        "szeber/yapep_base": "dev-master"
+        "szeber/yapep_base": "0.2.x-dev"
     },
     "authors": [
         {
